@@ -1,0 +1,348 @@
+body{
+    font-family: 'Titillium Web',  Helvetica,sans-serif;
+    font-size: 16px;
+    background-color: #164094;
+}
+
+
+#logo{
+    line-height: 100px;
+    text-transform: uppercase;
+    text-shadow: -1px -2px 12px white;
+    color: #255B80;
+    font-size: 50px;
+    text-decoration: none;
+}
+
+#logo > a:link{
+    text-shadow: -1px -2px 12px white;
+    color: #255B80;
+}
+
+
+.images{
+    height: 200px;
+    background: url(images/mosque_523.jpg);
+    background-size: 1400px 400px;
+    background-repeat: no-repeat;
+}
+
+
+.categories{
+    height: auto;
+}
+
+.articles{
+    border-color: rgba(141,124,194, .3);
+    border-top-style: solid;
+    border-top-width: 5px;
+    border-left-width: 5px;
+    border-left-style: solid;
+    border-radius: 20px 0 0 0;
+    background-color: rgb(225,243,253);
+}
+
+.articles h2{
+    background-color: rgb(146,197,244);;
+    text-align: center;
+    color: #2F2A80;
+    margin: 15px 0;
+    padding: 5px 0;
+}
+
+.contents{
+    min-height: 300px;
+}
+
+.about{
+    min-height: 300px;
+    background-color: #BDDDFC;
+    margin-top: 15px;
+}
+
+.about .fa-home {
+    color: rgb(206,37,6);
+}
+
+.about .fa-mobile{
+    color: gray;
+}
+
+
+
+.image{
+    float: right;
+    height: 150px;
+    width: 300px;
+}
+
+.excerpt{
+    margin-left: 20px;
+}
+
+.vidDesc{
+    margin-bottom: 20px;
+}
+
+.vidDesc > h4 {
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 0;
+}
+
+.vidDesc h4 > a {
+    color: rgb(0,53,254);
+}
+
+.vidDesc > p {
+    margin-top: 15px;
+}
+
+.vidDescP{
+    margin-bottom: 10px;
+}
+
+.tariqJameel{
+    margin-top: 60px;
+    width: 100%;
+}
+
+.list ul{
+    display: inline;
+    list-style-type: none;
+}
+
+.list ul li{
+    margin-bottom: 2px;
+    background-color: #80BFFF;
+    color: rgb(0,59,255);
+}
+#english{
+    color: black;
+}
+
+.box{
+    border: 2px solid rgb(16,54,129);
+    border-radius: 20px 20px 0 0;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.box > h4{
+
+    border-radius: 12px 12px 0 0;
+    margin: 0 0 10px 0;
+    padding: 6px 0;
+    font-size: 22px;
+    background-color: rgb(16,54,129);
+    color: #E1F3FD;
+}
+
+.liveHelpText{
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.liveHelp{
+    margin: 0 auto;
+    width: 150px;
+    min-height: 100px;
+    background-color: #699bc9;
+    border-radius: 20px;
+    box-shadow: 2px 2px 2px black;
+}
+
+.chatNow{
+    color: black;
+}
+
+.liveHelp p{
+    font-size: 14px;
+}
+
+.bgOrg{
+    color: orange;
+}
+
+.aboutSite{
+    padding: 0 5px;
+}
+
+.customForm label{
+    font-size: 14px;
+    padding: 4px;
+}
+
+#username{
+    margin-left: -1px;
+}
+
+.customCheck{
+    margin-left: 4px;
+}
+
+.customBtn{
+    display: block;
+    width: 95%;
+    margin: 0 auto;
+}
+
+.loginSmall{
+    margin-left: 4px;
+}
+
+.loginMargin{
+    padding-bottom: 20px;
+}
+
+.mostPopular{
+    list-style-type: none;
+    text-decoration: underline;
+    margin-bottom: 10px;
+}
+
+.mostPopular .list-group-item{
+    background-color: inherit;
+    border: none;
+    padding: 3px 9px;
+}
+
+.categories{
+    background-color: rgb(22,64,148);
+    color: white;
+}
+
+.categories > h4{
+    border-top:3px solid #778BA6;
+    border-left: 3px solid #778BA6;
+    border-radius: 20px 20px 0 0;
+    padding: 8px;
+    margin-bottom: 0;
+    background-color: #02246B;
+    color: #CACEFB;
+}
+
+.categories > ul > .list-group-item:first-child {
+    border-radius: 0;
+}
+.categories > ul > li{
+    background-color: #A1A2E3;
+    color: #3246A9;
+    border: none;
+    border-bottom: 2px solid #778BA6;
+    border-right: 2px solid #778BA6;
+    border-left: 2px solid #778BA6;
+    border-radius: 0;
+}
+
+.categories > ul > li:hover{
+    border-top: 1px solid #778BA6;
+    border-left: 1px solid #778BA6;
+    border-bottom: 3px solid #778BA6;
+    border-right: 2px solid #778BA6;
+    border-radius: 0;
+}
+
+
+.categories > ul > li > a {
+    display: block;
+    font-size: 14px;
+    margin-left: -10px;
+    margin-right: -9px;
+    color: #3246A9;
+}
+
+.categories > ul > li > a:hover {
+    font-size: 15px;
+    text-decoration: none;
+    margin-right: -16px;
+}
+
+
+.playIcon {
+    float: right;
+}
+
+.vidCategory > h4{
+    border: 2px solid white;
+    border-radius: 20px;
+    padding: 8px;
+    margin-bottom: 25px;
+    background-color: #123171;
+    color: white;
+}
+
+.searchCat{
+    border-right: 2px solid #778BA6;
+    border-bottom: 2px solid #778BA6;
+    border-radius: 20px 20px 0 0;
+    border-left: 1px solid black;
+    background-color: #A1A2E5;
+    padding-bottom: 10px;
+}
+
+.searchCat > h4 {
+    background-color: #012267;
+    color: #E4EAFF;
+    border-top: 3px solid #778BA6;
+    border-left: 3px solid #778BA6;
+    border-bottom: 1px solid black;
+    border-radius: 20px 20px 0 0;
+    padding: 8px;
+}
+
+#search{
+    margin-left: 7px;
+}
+
+.radio > label, .checkbox  > label {
+    margin-left:  10px;
+    color: black;
+}
+
+.aMiddleP{
+    margin-bottom: 25px;
+}
+
+.aMiddle{
+    margin-left: 15px;
+    text-decoration: underline;
+    color: white;
+}
+
+
+.aMiddle:hover{
+    font-size: 18px;
+    color: white;
+}
+
+.shareTag{
+    margin-left: 15px;
+    font-size: 19px;
+}
+
+.facebook, .twitter, .google{
+    margin: 0 5px;
+}
+
+.facebook:hover, .twitter:hover, .google:hover, .plus:hover{
+    font-size: 32px;
+}
+
+
+.facebook{
+    color: #3b5998;
+}
+
+.twitter{
+    color: #4099FF;
+}
+
+.google{
+    color: #dd4b39;
+}
+
+.plus, .shareTag > a > small{
+    color: #a7c4c9;
+}
+
